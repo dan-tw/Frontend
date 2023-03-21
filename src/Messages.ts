@@ -1,3 +1,4 @@
+This commit will throw an error!
 import {
 	AggregatedStats,
 	CandidatePairStats,
