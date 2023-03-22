@@ -12,10 +12,11 @@ document.body.onload = function () {
 
 	// Create a Native DOM delegate instance that implements the Delegate interface class
 	const stream = new spsFrontend.PixelStreaming(config);
-	const spsApplication = new spsFrontend.SPSApplication({ 
+	const spsApplication = new spsFrontend.SPSApplication({
 		stream,
 		onColorModeChanged: (isLightMode) => PixelStreamingApplicationStyles.setColorMode(isLightMode) /* Light/Dark mode support. */
 	});
 
 	document.body.appendChild(spsApplication.rootElement);
 }
+This will commit an error
