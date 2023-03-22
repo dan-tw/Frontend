@@ -19,4 +19,3 @@ document.body.onload = function () {
 
 	document.body.appendChild(spsApplication.rootElement);
 }
-This will commit an error
